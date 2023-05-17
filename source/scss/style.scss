@@ -6,6 +6,7 @@ body{
    min-width: 100%;
    color: white;
    font-family: Roboto Condensed;
+   
 }
 .wrapper{
    z-index: 10;
@@ -31,4 +32,42 @@ position: absolute;
 }
 h1{
    font-size: 38px;
+   display: none;
+   
+   
+}
+h2{
+   display: none;
+   
+   
+}
+button{
+   font-family: Roboto Condensed;
+   background: none;
+   color: white;
+   font-size: 32px;
+   border-radius: 45px;
+   border-width: 3px;
+   height: 100px;
+   width: 200px;
+   border-color: white;
+   border-style: solid;
+   cursor: pointer;
+   transition:  0.3s ease;
+}
+button:hover{
+   border-radius: 30px;
+}
+
+.visible{
+   
+   display: block;
+   transition:  0.3s ease;
+   animation-name: anim;
+   
+}
+.invisible{
+   display: none;
+   transition:  0.3s ease;
+   
 }
